@@ -1,23 +1,23 @@
 #! /usr/bin/env bash
 
-cd ../.. > /dev/null
+#cd ../.. > /dev/null
 
 # download language model
-cd models/lm > /dev/null
-bash download_lm_en.sh
-if [ $? -ne 0 ]; then
-    exit 1
-fi
-cd - > /dev/null
+#cd models/lm > /dev/null
+#bash download_lm_en.sh
+#if [ $? -ne 0 ]; then
+    #exit 1
+#fi
+#cd - > /dev/null
 
 
-# download well-trained model
-cd models/baidu_en8k > /dev/null
-bash download_model.sh
-if [ $? -ne 0 ]; then
-    exit 1
-fi
-cd - > /dev/null
+## download well-trained model
+#cd models/baidu_en8k > /dev/null
+#bash download_model.sh
+#if [ $? -ne 0 ]; then
+    #exit 1
+#fi
+#cd - > /dev/null
 
 
 # infer

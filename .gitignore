@@ -1,2 +1,8 @@
 .DS_Store
 *.pyc
+*.geany
+*.out
+/.env
+/models
+/decoders
+/data

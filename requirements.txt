@@ -1,4 +1,6 @@
+numpy
 scipy==1.2.1
 resampy==0.1.5
 SoundFile==0.9.0.post1
 python_speech_features
+paddlepaddle==1.6.1

@@ -17,6 +17,8 @@ import soundfile
 import json
 import codecs
 import io
+
+sys.path.insert(0, '.')
 from data_utils.utility import download, unpack
 
 URL_ROOT = "http://www.openslr.org/resources/12"

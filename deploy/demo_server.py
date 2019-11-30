@@ -208,6 +208,7 @@ def start_server():
                 cutoff_top_n=args.cutoff_top_n,
                 vocab_list=vocab_list,
                 num_processes=1)
+        print('result_transcript:', result_transcript)
         return result_transcript[0]
 
     # warming up with utterrances sampled from Librispeech
